@@ -122,9 +122,15 @@ img {
 .hero {
     background: var(--navy-blue);
     text-align: center;
-    width: 100%;
+    max-width: 1440px;
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7)), 
+    url(../images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
 .hero-title {
     color: var(--white);
     font-weight: 700;
