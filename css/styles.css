@@ -184,6 +184,17 @@ img {
 .features-item {
     flex-basis: calc((100% - 3 * 24px) / 4);
 }
+.features-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--light-slate);
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: var(--cloud);
+    padding: 24px 100px;
+}
 
 .heading-style {
         font-weight: 500;
@@ -195,6 +206,7 @@ img {
 .text {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .page-section {
     background-color: #F4F4FD;
@@ -204,17 +216,18 @@ img {
     text-align: center;
 }
 .team-member {
-    background-color: #FFFFFF;
-    border-radius: 0 0 4px 4px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: var(--white);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 8px;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+background-color: #FFFFFF;
+border-radius: 0 0 4px 4px;
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+background: var(--white);
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 8px;
+flex-basis: calc((100% - 3 * 24px) / 4);
 }
+
 .team-title {
 line-height: 1.11;
 font-weight: 700;
@@ -229,7 +242,15 @@ text-align: center;
     display: flex;
     gap: 24px;
     justify-content: center;
-
+}
+.social-list {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 0;
+    padding:0 16px;
 }
 
 .main-heading {
@@ -282,4 +303,9 @@ padding: 32px 16px;
 .footer-logo{
     margin-bottom: 16px;
     display: inline-block;
+} 
+.footer-container {
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
 }
